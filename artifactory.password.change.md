@@ -29,3 +29,5 @@ systemctl restart artifactory
 ### Источники
 - https://www.jfrog.com/confluence/display/RTF5X/Configuring+Artifactory
 - https://www.jfrog.com/confluence/display/RTF5X/Managing+Users#ManagingUsers-ResettingtheAdminPassword
+
+**tags:** ***bash artifactory***
