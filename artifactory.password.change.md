@@ -1,4 +1,4 @@
-## Настройка artifactory без пароля admin
+## Сменить домен для artifactory v5.6 не зная пароля admin
 ### Сменить текущий пароль admin на password
 ```bash
 cp /var/opt/jfrog/artifactory/backup/backup-daily/current/security.xml /etc/opt/jfrog/artifactory/security.import.xml
