@@ -57,11 +57,13 @@ Enable-SPFeature pwasite -URL $siteUrl
 
 14. Добавить самоподписанный сертификат в IIS (настоящий сертификат будет на прокси в nginx)
 
-Меню IIS -> "Начальная страница SHAREPOINT" -> "Сертификаты сервера"
+> Меню IIS -> "Начальная страница SHAREPOINT" -> "Сертификаты сервера"
+>
 
 15. Подключить сертификат к сайту
 
-Меню IIS -> "Начальная страница SHAREPOINT - Sharepoint443" -> "Привязки..." -> "Добавить..."
+> Меню IIS -> "Начальная страница SHAREPOINT - Sharepoint443" -> "Привязки..." -> "Добавить..."
+>
 
 16. Добавить нового пользователя в систему Windows
 
@@ -72,6 +74,7 @@ New-SPUser -UserAlias 'sharepoint\vorobyov' -DisplayName 'V. Vorobyov' -Web http
 
 18. Добавить пользователя в группу "Руководители проектов для Project·Web·App"
 
-Выполняется по ссылке: https://pwa.example.ru/_layouts/15/groups.aspx
+> Выполняется по ссылке: https://pwa.example.ru/_layouts/15/groups.aspx
+>
 
 19. Лепота.
