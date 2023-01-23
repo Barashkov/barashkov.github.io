@@ -20,6 +20,7 @@ sudo su borg
 nano .ssh/authorized_keys
 ```
 > добавить в начало строки command: 'command="/usr/local/bin/borg serve" ssh-rsa AAAAB3... '
+
 ```
 exit
 ```
